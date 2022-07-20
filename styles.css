@@ -1,0 +1,60 @@
+li.nav-item {
+    display: inline;
+}
+body {
+    font-family: 'Roboto', sans-serif;
+}
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+.textcenter {
+    text-align: center;
+}
+.textcenter.texttile {
+    font-size: 45px;
+    font-weight: bold;
+    color: #583a3a;
+    text-transform: uppercase;
+    margin-top: 20px;
+}
+li.nav-item a {
+    color: black;
+    text-decoration: none;
+    text-transform: capitalize;
+    font-size: 20px;
+    padding: 20px;
+}
+section {
+    flex: 1;
+    padding: 25px;
+}
+main {
+    display: flex;
+}
+h1.subtitle {
+    text-transform: capitalize;
+    font-size: 19px;
+    font-weight: 500;
+    text-decoration: underline;
+}
+label {
+    text-transform: capitalize;
+    font-size: 16px;
+    font-weight: 300;
+}
+input {
+    padding: 5px;
+    border: solid 1px;
+    border-color: gray;
+    margin-bottom: 10px;
+    border-radius: 3px;
+    min-width: 40%;
+}
+footer {
+    margin: 0;
+    background: black;
+    color: white;
+}
+
+footer section {
+    display: inline-flex;
+}
